@@ -1,0 +1,306 @@
+:root {
+  --nav-bar-bg-color: #1e441e;
+  --button-hover-color: #2a7221;
+  --html-bg-color-green: #e5ffcc;
+  --html-bg-color-blue: #ccffff;
+  --transition-time: 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: verdana;
+  cursor: default;
+  height: 1px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: var(--nav-bar-bg-color);
+  height: 70px;
+}
+
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--nav-bar-bg-color);
+  position: fixed;
+  /* ! Zeptat se na position: fixed; */
+  top: 0;
+  width: 100%;
+}
+
+.topnav li {
+  float: right;
+}
+
+.topnav li:last-child
+/*.topnav li:nth-last-child(2)*/ {
+  border-right: none;
+  float: left;
+  padding-left: 1%;
+  border-width: 40%;
+}
+
+.topnav li a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 23px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav li a:hover {
+  background-color: var(--button-hover-color);
+  transition: var(--transition-time);
+}
+
+.topnav li a:not(:hover) {
+  background-color: var(--nav-bar-bg-color);
+  transition: var(--transition-time);
+}
+
+.bg-color {
+  position: relative;
+  top: -32px;
+  width: 100%;
+  height: 4800px;
+  background-image: linear-gradient(
+    var(--html-bg-color-green),
+    var(--html-bg-color-blue)
+  );
+}
+
+.slogan {
+  position: relative;
+  top: 80px;
+  text-align: center;
+  color: black;
+  font-size: 150%;
+}
+
+.o-nas {
+  position: relative;
+  margin: auto;
+  top: 120px;
+  width: 75%;
+  text-align: center;
+}
+
+.o-nas p {
+  font-size: 110%;
+}
+
+.o-nas-osoby-container {
+  position: relative;
+  top: 50px;
+}
+
+.o-nas-osoby-container table {
+  margin: auto;
+}
+
+.o-nas-osoby-container td {
+  width: 10%;
+}
+
+.o-nas-osoba {
+  position: relative;
+  text-align: center;
+}
+
+.kruh {
+  background-color: var(--nav-bar-bg-color);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.kruh h1 {
+  position: relative;
+  color: aliceblue;
+  margin: auto;
+  top: 45px;
+  font-size: 300%;
+}
+
+.ubytovani {
+  position: relative;
+  margin: auto;
+  top: 200px;
+  text-align: center;
+  width: 75%;
+}
+
+.ubytovani p {
+  font-size: 110%;
+}
+
+.ubytovani table {
+  margin: auto;
+  text-align: justify;
+}
+
+.ubytovani td {
+  width: 500px;
+}
+
+.zabava {
+  position: relative;
+  top: 250px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.zabava ul {
+  list-style-type: none;
+}
+
+.zabava h3,
+.zabava li {
+  text-align: left;
+}
+
+.galerie {
+  position: relative;
+  top: 300px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.galerie p {
+  font-size: 110%;
+}
+
+.button-default {
+  color: aliceblue;
+  background-color: var(--nav-bar-bg-color);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.button-slanted {
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+.button-slanted-content {
+  -ms-transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);
+  display: inline-block;
+}
+
+a {
+  color: inherit;
+}
+
+.bg-color-galerie {
+  position: relative;
+  width: 100%;
+  height: 2250px;
+  background-image: linear-gradient(
+    var(--html-bg-color-green),
+    var(--html-bg-color-blue)
+  );
+}
+
+.galerie-container {
+  position: relative;
+  top: 50px;
+  text-align: right;
+  width: 85%;
+  margin: auto;
+}
+
+.foto {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 250px;
+  width: 400px;
+}
+
+.cenik-container {
+  position: relative;
+  margin: auto;
+  top: 450px;
+  width: 75%;
+  text-align: center;
+}
+
+.cenik-container table {
+  margin: auto;
+  width: 60%;
+}
+
+.cenik-container table td {
+  width: 50%;
+}
+
+.registrace-container {
+  position: relative;
+  top: 550px;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  background-color: var(--button-hover-color);
+  color: aliceblue;
+  border-radius: 20px;
+}
+
+.registrace-container table {
+  margin: auto;
+}
+
+.registrace-container p {
+  font-size: 110%;
+}
+
+form input {
+  width: 150px;
+  border-radius: 8px;
+}
+
+.footer-container {
+  position: relative;
+  top: -54px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  height: 300px;
+}
+
+.footer {
+  position: relative;
+  top: 30px;
+}
+
+.footer table {
+  margin: auto;
+}
+
+.footer table td {
+  width: 400px;
+}
+
+.footer p {
+  font-size: 110%;
+}
+
+.company-name {
+  color: aliceblue;
+}
