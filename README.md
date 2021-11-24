@@ -1,4 +1,4 @@
 # README
 Author: Pavel Podrazký
 
-This is website for fictitious company lont
+Webové stránky pro fiktivní firmu lont.
