@@ -211,7 +211,7 @@ a {
 .bg-color-galerie {
   position: relative;
   width: 100%;
-  height: 2500px;
+  height: 2750px;
   background-image: linear-gradient(
     var(--html-bg-color-green),
     var(--html-bg-color-blue)
