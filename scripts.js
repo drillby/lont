@@ -29,3 +29,8 @@ function checkDate() {
 function fiktivniFirma(){
     alert("Jsme fiktivní firma.")
 }
+function podminky(){
+    alert(
+        'V ceně je zahrnuto: \n prostorové vybavení sálu: \n stolky + židle \n malé pódium \n šatna \n technické vybavení sálu: \n projektor + plátno \n ozvučení a osvětlení sálu \n mikrofony. \n Ceny jsou uvedeny pro skupiny do 30 osob, v případě početnější skupiny bude cena navýšena. \n Pokud budete chtít vícedenní akci, cena se zvýší. Pokud u nás budte zůstávat déle kvůli vícedenní akci, dostanete slevu na ubytování. \n Občarstvení není zahrnuto v ceně, pokud o něj budete mít zájem, dejte nám vědět předem.'
+    )
+}
